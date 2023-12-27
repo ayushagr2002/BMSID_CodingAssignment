@@ -2,7 +2,7 @@ import numpy as np
 from icecream import ic
 
 def rotate_point(point, angle, line_direction_cosines):
-    # convert angle to radians
+    # convert angle in degree to radians
     angle = np.deg2rad(angle)
     rotation_matrix = [
         [
